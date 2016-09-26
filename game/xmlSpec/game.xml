@@ -1,0 +1,227 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Dhruv Jain</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>300</frameMax>
+<username>djain</username>
+
+<hud>
+  <Width>255</Width>
+  <Height>330</Height>
+  <X>10</X>
+  <Y>30</Y>
+  <ShowAtStart>true</ShowAtStart>
+</hud>
+
+<hudgame>
+  <ShowAtStart>false</ShowAtStart>
+</hudgame>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>3000</width>
+  <height>480</height>
+</world>
+
+<numberOfOrbs>60</numberOfOrbs>
+<numberOfEnemies>8</numberOfEnemies>
+
+<safeDistance>400</safeDistance>
+
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+<back>
+  <file>images/back.png</file>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <factor>8</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back>
+
+<asteroid>
+  <file>images/ast.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="0"/>
+  <width>32</width>
+  <height>32</height>
+  <loc x="320" y="240"/>
+  <speed x="50" y="250"/>
+  <transparency>true</transparency>
+</asteroid>
+
+<stars>
+  <file>images/stars.png</file>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</stars>
+
+<sun>
+  <file>images/sun.png</file>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</sun>
+
+<planets>
+  <file>images/planets.png</file>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</planets>
+
+<font name="font">
+  <file>font/dyslexic-regular.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<destiny>
+  <file>images/r.png</file>
+  <startLoc x="0" y="280"/>
+  
+  <frames>4</frames>
+  <frameInterval>80</frameInterval>
+  <strategy>perpixel</strategy>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>200</width>
+  <height>61</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <slowDown>0.95</slowDown>
+  <transparency>true</transparency>
+
+  <chunk>
+    <size>20</size>
+    <distance>100</distance>
+  </chunk>
+  
+</destiny>
+
+
+<astronaut>
+  <file>images/astronaut.png</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>29</frames>
+  <frameInterval>58</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>145</width>
+  <height>149</height>
+  <speedX>-5</speedX>
+  <speedY>20</speedY>
+  <transparency>true</transparency>
+</astronaut>
+
+<!-- <asteroid>
+  <file>images/asteroid.png</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>9</frames>
+  <frameInterval>80</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>66</width>
+  <height>68</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</asteroid>
+ -->
+<greenorb>
+  <file>images/malloy.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>700</width>
+  <height>525</height>
+  <startLoc x="320" y="240"/>
+  <speedX>75</speedX>
+  <speedY>75</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+<bullet>
+  <file>images/laser.png</file>
+  <startLoc x="200" y="30"/>
+
+  <frames>1</frames>
+  <frameInterval>20</frameInterval>
+
+  <speed x="50"/>
+  <distance>500</distance>
+  <bulletinterval>250</bulletinterval>
+  <minbulletspeed>320</minbulletspeed>
+  <strategy>perpixel</strategy>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>50</width>
+  <height>50</height>
+  <speedX>0</speedX>
+  <speedY>20</speedY>
+  <transparency>true</transparency>
+  <number>100</number>
+</bullet>
+
+<enemyship>
+  <file>images/ship.png</file>
+  <frames>6</frames>
+  <frameInterval>150</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>133</width>
+  <height>133</height>
+  <startLoc x="680" y="300"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>20</size>
+    <distance>100</distance>
+  </chunk>
+  <transparency>true</transparency>
+</enemyship>
+
+</GameData>

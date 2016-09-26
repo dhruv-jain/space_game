@@ -1,0 +1,54 @@
+Name: Dhruv Jain	
+Clemson Email Address: djain@clemson.edu 
+
+Project no: 6
+Project due date: Friday, December 4th, 2015
+
+Project description: A Playable Game
+
+Project Specification - 
+1 - AI - The AI is implemented in the enemy sprite. When the player ship is seen between the enemy ship, the enemy ship start coming towards the player ship to destroy it. 
+
+2 - Sound and Music - Background music and other sounds incorporated.
+ 
+3 - God Mode - God mode incorporated.
+
+4-  Restart feature - Restart feature incorporated.
+
+5-  Explosions and collisions - The enemy ship collides with the player ship and explodes. The player shoots a laser and the laser collides with 
+
+
+Game - If you are successful in shooting every enemy ship you will win the game. If the rocket is hit several times, you loose the game. 
+
+Rocket movement - 
+Press A to move left
+Press S to move down
+Press W to move up
+Press D to move right
+Press Space to shoot
+Press R to Reset the game
+Press G for God Mode
+Press F1 to toggle Hud
+
+To compile - 
+1- type make
+2- type ./run
+
+
+--------------------------------
+| Clock         |              |
+--------------------------------
+| Sprites       |              |
+--------------------------------
+| Singleton     |              |
+--------------------------------
+| game.xml      |              |
+--------------------------------
+| Leaks         |              |
+--------------------------------
+| F4/frames     |              |
+--------------------------------
+| Submission    |              |
+--------------------------------
+| README        |              |
+--------------------------------
